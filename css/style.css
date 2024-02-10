@@ -547,12 +547,10 @@ h6 {
   position: relative;
 }
 
-.advantages__image img {
-  z-index: 3;
-}
-
 .no-webp .advantages__image::after{
-  background: url("../img/advantages/decor.png") 0 0/cover no-repeat; }
+  background: url("../img/advantages/decor.png") 0 0/cover no-repeat; 
+	z-index: -1;
+}
 
 .advantages__image::after {
   content: "";
